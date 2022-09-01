@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL.Server.Core" Version="5.0.1" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore.SystemTextJson" Version="5.0.1" />
+    <PackageReference Include="GraphQL.Server.Ui.GraphiQL" Version="5.0.1" />
+    <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GraphQLDemo.DomainService\GraphQLDemo.DomainService.csproj" />
+  </ItemGroup>
+
+</Project>
