@@ -1,19 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo", "GraphQLDemo\GraphQLDemo.csproj", "{C36FB45F-C884-4EBE-B68E-4432EA0484DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo", "GraphQLDemo\GraphQLDemo.csproj", "{C36FB45F-C884-4EBE-B68E-4432EA0484DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.Domain", "GraphQLDemo.Domain\GraphQLDemo.Domain.csproj", "{AC6A747C-3A86-4D6A-9DA1-7DD659725161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.Domain", "GraphQLDemo.Domain\GraphQLDemo.Domain.csproj", "{AC6A747C-3A86-4D6A-9DA1-7DD659725161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.DomainService", "GraphQLDemo.DomainService\GraphQLDemo.DomainService.csproj", "{D4533641-B069-499B-B11D-322DD75A0C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.DomainService", "GraphQLDemo.DomainService\GraphQLDemo.DomainService.csproj", "{D4533641-B069-499B-B11D-322DD75A0C02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.ApplicationService", "GraphQLDemo.ApplicationService\GraphQLDemo.ApplicationService.csproj", "{7012D319-5679-47C2-852E-237B9CDFB6C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.ApplicationService", "GraphQLDemo.ApplicationService\GraphQLDemo.ApplicationService.csproj", "{7012D319-5679-47C2-852E-237B9CDFB6C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.Infrastructure", "GraphQLDemo.Infrastructure\GraphQLDemo.Infrastructure.csproj", "{BBF2B9D8-D833-4772-A588-596A6F3B26E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.Infrastructure", "GraphQLDemo.Infrastructure\GraphQLDemo.Infrastructure.csproj", "{BBF2B9D8-D833-4772-A588-596A6F3B26E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLDemo.GraphQLBlog", "GraphQLDemo.GraphQLBlog\GraphQLDemo.GraphQLBlog.csproj", "{C5817047-28AB-4CFA-A139-EFFAB2659A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLDemo.GraphQLBlog", "GraphQLDemo.GraphQLBlog\GraphQLDemo.GraphQLBlog.csproj", "{C5817047-28AB-4CFA-A139-EFFAB2659A9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{978E4CF8-5B36-40D4-BD98-E382D0183D7E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
